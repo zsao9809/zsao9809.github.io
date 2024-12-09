@@ -5,8 +5,8 @@ keywords: null
 author: John Doe
 language: en
 timezone: ''
-url: https://zsao9809.github.io/zsao9809.github.io
-root: /zsao9809.github.io/
+url: https://zsao9809.github.io/
+root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
