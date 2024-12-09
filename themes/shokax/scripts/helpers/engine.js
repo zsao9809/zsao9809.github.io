@@ -43,7 +43,8 @@ const randomBG = function(count = 1, image_server = null, image_list = []) {
       return img;
     } else {
       console.warn("sinaimg blocked all request from outside website,so don't use this format");
-      return `https://tva${randomServer}.sinaimg.cn/` + size + "/" + img;
+      // return `https://tva${randomServer}.sinaimg.cn/` + size + "/" + img;
+      return 'https://i0.wp.com/' + `tva${randomServer}.sinaimg.cn/` + size + '/' + img;
     }
   };
   if (count && count > 1) {
