@@ -7,7 +7,7 @@ language: zh-CN
 timezone: ''
 url: https://zsao9809.github.io/
 root: /
-permalink: :type/:fileName.html
+permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
